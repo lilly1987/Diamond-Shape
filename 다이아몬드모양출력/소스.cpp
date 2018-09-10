@@ -14,7 +14,7 @@ int main(int argc, char* argv[]) {
 		
 		// 입력 받기
 		cout << "숫자만 입력."<<endl;
-		cout << "0 이하 입력시 종료" << endl;
+		cout << "0 입력시 종료" << endl;
 		cout << "다이아 크기:";
 		//getline(cin, v);
 		cin >> v;
@@ -53,7 +53,7 @@ int main(int argc, char* argv[]) {
 			s += '\n';
 		}
 		cout << s;
-	} while (v > 0);
+	} while (0 < v);
 
 	return 0;
 }
